@@ -1,5 +1,8 @@
-body {
-    margin: 0;
+.wrapper {
+    height: 100vh;
+}
+h1 h2 h3 {
+    font-size: 1rem;
 }
 header {
     display: flex;
@@ -7,7 +10,7 @@ header {
     background-color: lightgray;
     color: black;
     text-align: center;
-    height: 90px;
+    height: 20%;
     align-items: center;
 }
 main {
@@ -17,8 +20,8 @@ section {
     display: flex;
     flex-wrap: wrap;
     background-color: peachpuff;
-    width: 60%;
-    height: 400px;
+    width: 75%;
+    height: 60%;
     justify-content: center;
     align-items: flex-end;
 }
@@ -47,7 +50,7 @@ aside {
 footer {
     display: flex;
     background-color: lightgray;
-    height: 90px;
+    height: 20%;
     justify-content: center;
 }
 footer div {
